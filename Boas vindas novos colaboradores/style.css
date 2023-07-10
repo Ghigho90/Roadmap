@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Montserrat:wght@100;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(2.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  margin: auto;
+  height: 2300px;
+}
+
+a {
+  text-decoration: none;
+  color: #545454;
+}
+
+p {
+  color: #8f8c8c;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  padding: 28px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #545454;
+}
+
+.bemvindo {
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+  color: #545454;
+  margin-left: 50px;
+}
+
+h1 {
+  font-size: 34px;
+  color: #545454;
+  font-family: "Antonio", sans-serif;
+}
+
+h2 {
+  color: #545454;
+  font-family: "Antonio", sans-serif;
+}
+
+#site {
+  margin-top: 126px;
+  margin-left: 111px;
+  width: 300px;
+}
+
+#elofy {
+  margin-top: 260px;
+  margin-left: 240px;
+  width: 380px;
+}
+
+#ti {
+  margin-top: 190px;
+  margin-left: 95px;
+  width: 300px;
+}
+
+#suporte {
+  margin-top: 185px;
+  margin-left: 227px;
+  width: 380px;
+}
+
+#conteudorapido {
+  margin-top: 187px;
+  margin-left: 100px;
+  width: 300px;
+}
+
+.instagram {
+  display: flex;
+  margin-top: 275px;
+  margin-left: 432px;
+  margin-right: 398px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #545454;
+  padding: 17px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.instagram img {
+  width: 24px;
+  height: 24px;
+}
+
+.facebook {
+  display: flex;
+  margin-top: -34px;
+  margin-left: 384px;
+  margin-right: 398px;
+  border-radius: 50%;
+  width: 36px;
+  height: 35px;
+  background-color: #545454;
+  padding: 17px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.facebook img {
+  width: 24px;
+  height: 24px;
+}
+
+.youtube {
+  display: flex;
+  margin-top: -36px;
+  margin-left: 479px;
+  margin-right: 398px;
+  border-radius: 50%;
+  width: 36px;
+  height: 35px;
+  background-color: #545454;
+  padding: 17px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
